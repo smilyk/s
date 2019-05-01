@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import java.io.Serializable;
 
 
 @Entity
@@ -15,7 +16,7 @@ import javax.persistence.ManyToOne;
 @Setter
 @ToString
 @Builder
-public class Model {
+public class Model  implements Serializable {
 	@Id
 	String nameModel;
 	String color;

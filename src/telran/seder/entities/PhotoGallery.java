@@ -6,6 +6,7 @@ import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
+import java.io.Serializable;
 
 
 @Entity
@@ -15,7 +16,7 @@ import javax.persistence.ManyToOne;
 @Setter
 @Builder
 @ToString
-public class PhotoGallery {
+public class PhotoGallery implements Serializable {
 
 	@Id
 	

@@ -3,6 +3,7 @@ package telran.seder.entities;
 import lombok.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 
@@ -14,7 +15,7 @@ import java.util.List;
 @Builder
 @ToString
 @Table(name="shelf")
-public class Shelf {
+public class Shelf  implements Serializable {
 
 	@Id
 	String nameShelf;

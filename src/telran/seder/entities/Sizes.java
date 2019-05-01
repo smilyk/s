@@ -7,13 +7,14 @@ import lombok.Setter;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
+import java.io.Serializable;
 
 @Entity
 @AllArgsConstructor
 @NoArgsConstructor
 @Getter
 @Setter
-public class Sizes {
+public class Sizes implements Serializable {
 	@Id
 	String size;
 }

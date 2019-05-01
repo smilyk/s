@@ -4,6 +4,7 @@ import io.swagger.annotations.ApiModelProperty;
 import lombok.*;
 
 import javax.persistence.*;
+import java.io.Serializable;
 import java.util.List;
 
 @Entity
@@ -13,7 +14,7 @@ import java.util.List;
 @Setter
 @Builder
 @ToString
-public class Cupboard {
+public class Cupboard implements Serializable {
 	@Id
 
 	String nameCupboard;
