@@ -14,7 +14,7 @@ import telran.seder.service.CupboardServer;
 
 import java.util.List;
 
-@CrossOrigin
+@CrossOrigin(origins = "http://localhost:63343")
 @RestController
 @RequestMapping(SederApiConst.API_CUPBOARD)
 @Api(value = "onlinestore", description = "methods that collect data about the cupboard ")
