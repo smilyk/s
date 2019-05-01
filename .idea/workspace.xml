@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="220e25ea-e472-4f83-8bf6-003bea0db35d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/telran/seder/SederApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/telran/seder/SederApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/telran/seder/SimpleCORSFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/telran/seder/SederApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/telran/seder/SederApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/telran/seder/SimpleCORSFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/telran/seder/controller/CupboardController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/telran/seder/controller/CupboardController.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/seder.kotlin_module" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -289,7 +283,7 @@
     <property name="SearchEverywhereHistoryKey" value="d&#9;FILE&#9;file:///Users/smilyk/Desktop/SederBHeader/src/telran/seder/dto/RoomDto.java" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556717447223" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1556719886930" />
     <property name="database.console.LAST_STATE" value="false" />
     <property name="extract.method.default.visibility" value="private" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -380,7 +374,7 @@
       <workItem from="1555604974126" duration="1115000" />
       <workItem from="1556385357505" duration="9156000" />
       <workItem from="1556688973100" duration="3217000" />
-      <workItem from="1556703304213" duration="10311000" />
+      <workItem from="1556703304213" duration="11270000" />
     </task>
     <task id="LOCAL-00001" summary="popitka nomer 2">
       <created>1556712587398</created>
@@ -417,7 +411,14 @@
       <option name="project" value="LOCAL" />
       <updated>1556714851159</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="popitka nomer 5">
+      <created>1556717703718</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1556717703718</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -426,7 +427,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="198883000" />
+    <option name="totallyTimeSpent" value="199842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="89" y="52" width="1282" height="823" extended-state="0" />
