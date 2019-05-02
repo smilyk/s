@@ -1,1 +1,1 @@
-web: java -jar target/libraryBook.jar
+web: java -jar target/libraryBook.jar --port $PORT target/*.war
