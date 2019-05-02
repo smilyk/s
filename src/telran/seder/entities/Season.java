@@ -11,7 +11,7 @@ import java.io.Serializable;
 
 @Entity
 @AllArgsConstructor
-//@NoArgsConstructor
+@NoArgsConstructor
 @Getter
 @Setter
 public class Season implements Serializable {
