@@ -1,1 +1,1 @@
-web: java -jar target/libraryBook.jar --port $PORT target/*.war
+web:  java $JAVA_OPTS -Dserver.port=$PORT java -jar target/libraryBook.jar
